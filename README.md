@@ -2,7 +2,7 @@
 
 
 
-# 一、前言
+# 前言
 
 一个基本的网站包含多个网页，一个网页由 HTML, CSS 和 JavaScript  组成，其中：
 
@@ -14,11 +14,11 @@
 
 工欲善其事必先利其器，推荐使用 VSCode IDE，[点击前往官网下载 >>](https://code.visualstudio.com/download)
 
-# 二、HTML是什么？
+# HTML是什么？
 
 HTML（**H**yper**T**ext **M**arkup **L**anguage，超文本标记语言） 是一种描述语言，用来定义网页结构。
 
-# 三、发展史
+# 发展史
 
 1990 年，由于对 [Web](https://developer.mozilla.org/zh-CN/docs/Glossary/World_Wide_Web) 未来发展的远见，Tim Berners-Lee 提出了[超文本](https://developer.mozilla.org/zh-CN/docs/Glossary/Hypertext)的概念，并在第二年在 [SGML](https://developer.mozilla.org/zh-CN/docs/Glossary/SGML) 的基础上将其正式定义为一个标记语言。[IETF](https://developer.mozilla.org/zh-CN/docs/Glossary/IETF) 于 1993 年正式开始制定 HTML 规范，并在经历了几个版本的草案后于 1995 年发布了 HTML 2.0 版本。1994 年，Berners-Lee 为了 Web 发展而成立了 [W3C](https://developer.mozilla.org/zh-CN/docs/Glossary/W3C)。1996 年，W3C 接管了 HTML 的标准化工作，并在 1 年后发布了 HTML 3.2 推荐标准。1999 年，HTML 4.0 发布，并在 2000 年成为 [ISO](https://developer.mozilla.org/zh-CN/docs/Glossary/ISO) 标准。
 
@@ -26,7 +26,7 @@ HTML（**H**yper**T**ext **M**arkup **L**anguage，超文本标记语言） 是�
 
 > 提示：摘自[MDN >>](https://developer.mozilla.org/zh-CN/docs/Glossary/HTML)
 
-# 四、概念和语法
+# 概念和语法
 
 HTML 文档是包含多个 HTML 元素 的文本文档。每个元素都用一对开始和结束标签包裹，每个标签以尖括号（`<>`）开始和结束，如：
 
@@ -42,7 +42,7 @@ HTML 文档是包含多个 HTML 元素 的文本文档。每个元素都用一�
 
 HTML 文件通常会以 `.htm` 或 `.html` 为扩展名。用户可以从 [Web 服务器](https://developer.mozilla.org/zh-CN/docs/Glossary/Server)中下载，并使用任一 [Web 浏览器](https://developer.mozilla.org/zh-CN/docs/Glossary/Browser)来解析和显示这些文件。
 
-# 五、元素分类
+# 元素分类
 
 HTML 元素类型主要分为以下三种：
 
@@ -70,7 +70,7 @@ HTML 元素类型主要分为以下三种：
 
 ![](./IMGS/check_display.png)
 
-# 六、标签嵌套
+# 标签嵌套
 
 HTML 标签嵌套是将一个 HTML 标签放置在另一个 HTML 标签内部的做法。例如：
 
@@ -92,7 +92,7 @@ HTML 标签嵌套是将一个 HTML 标签放置在另一个 HTML 标签内部的
 
 这些规则有助于确保 HTML 文档结构清晰，保证页面在不同浏览器中正确显示和正常运行。遵循这些规则可以避免布局混乱和潜在的显示错误。
 
-# 七、HTML 基本文档结构
+# HTML 基本文档结构
 
 HTML基本文档结构是指组成一个基本的HTML页面所必须的元素标签。具体编写格式如下：
 
